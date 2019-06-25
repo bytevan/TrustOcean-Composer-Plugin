@@ -1,0 +1,21 @@
+{
+    "name": "londr/trustocean_ssl_certificate",
+    "description": "php composer plugin for TrustOcean SSL API",
+    "type": "composer-plugin",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Jason Long",
+            "email": "tanglongjun@qiaokr.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "blobfolio/blob-domain": "dev-master"
+    },
+    "autoload": {
+        "psr-4": {
+            "Londry\\TrustOceanSSLCertificate\\": "src/TrustOceanSSLCertificate"
+        }
+    }
+}

@@ -1,0 +1,195 @@
+[
+    {
+        "name": "blobfolio/blob-domain",
+        "version": "dev-master",
+        "version_normalized": "9999999-dev",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/Blobfolio/blob-domain.git",
+            "reference": "7ac93aba650952a8306fe519826ab4d95baea660"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/Blobfolio/blob-domain/zipball/7ac93aba650952a8306fe519826ab4d95baea660",
+            "reference": "7ac93aba650952a8306fe519826ab4d95baea660",
+            "shasum": "",
+            "mirrors": [
+                {
+                    "url": "https://dl.laravel-china.org/%package%/%reference%.%type%",
+                    "preferred": true
+                }
+            ]
+        },
+        "require": {
+            "blobfolio/blob-common": "*",
+            "ext-filter": "*",
+            "ext-intl": "*",
+            "ext-json": "*",
+            "ext-mbstring": "*",
+            "php": ">= 7.0"
+        },
+        "require-dev": {
+            "phpunit/phpunit": "5.7.*"
+        },
+        "time": "2019-06-01T17:10:35+00:00",
+        "type": "library",
+        "installation-source": "source",
+        "autoload": {
+            "psr-4": {
+                "blobfolio\\domain\\": "lib/blobfolio/domain"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "WTFPL"
+        ],
+        "authors": [
+            {
+                "name": "Josh Stoik",
+                "email": "josh@blobfolio.com",
+                "homepage": "https://blobfolio.com"
+            }
+        ],
+        "description": "Parse and validate domain names.",
+        "homepage": "https://github.com/Blobfolio/blob-domain",
+        "keywords": [
+            "Public Suffix List",
+            "domain",
+            "formatting",
+            "iana",
+            "icann",
+            "idn",
+            "php",
+            "tld"
+        ]
+    },
+    {
+        "name": "blobfolio/blob-common",
+        "version": "dev-master",
+        "version_normalized": "9999999-dev",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/Blobfolio/blob-common.git",
+            "reference": "2a51fa4d308ad022b46c367e263fd1a32e703dce"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/Blobfolio/blob-common/zipball/2a51fa4d308ad022b46c367e263fd1a32e703dce",
+            "reference": "2a51fa4d308ad022b46c367e263fd1a32e703dce",
+            "shasum": "",
+            "mirrors": [
+                {
+                    "url": "https://dl.laravel-china.org/%package%/%reference%.%type%",
+                    "preferred": true
+                }
+            ]
+        },
+        "require": {
+            "blobfolio/blob-domain": "*",
+            "blobfolio/blob-mimes": "*",
+            "ext-bcmath": "*",
+            "ext-dom": "*",
+            "ext-filter": "*",
+            "ext-hash": "*",
+            "ext-json": "*",
+            "ext-mbstring": "*",
+            "php": ">= 7.0"
+        },
+        "require-dev": {
+            "phpunit/phpunit": "5.7.*"
+        },
+        "suggest": {
+            "blobfolio/blob-phone": "*"
+        },
+        "time": "2019-06-02T05:32:59+00:00",
+        "type": "library",
+        "installation-source": "source",
+        "autoload": {
+            "psr-4": {
+                "blobfolio\\common\\": "lib/blobfolio/common"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "WTFPL"
+        ],
+        "authors": [
+            {
+                "name": "Josh Stoik",
+                "email": "josh@blobfolio.com",
+                "homepage": "https://blobfolio.com"
+            }
+        ],
+        "description": "An expansive PHP toolkit with functions for sanitizing, formatting, parsing, etc.",
+        "homepage": "https://github.com/Blobfolio/blob-common",
+        "keywords": [
+            "data",
+            "formatting",
+            "parsing",
+            "php",
+            "sanitizing"
+        ]
+    },
+    {
+        "name": "blobfolio/blob-mimes",
+        "version": "dev-master",
+        "version_normalized": "9999999-dev",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/Blobfolio/blob-mimes.git",
+            "reference": "3abf0efa2e466f65468e8bb38d2ae72bb6d90564"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/Blobfolio/blob-mimes/zipball/3abf0efa2e466f65468e8bb38d2ae72bb6d90564",
+            "reference": "3abf0efa2e466f65468e8bb38d2ae72bb6d90564",
+            "shasum": "",
+            "mirrors": [
+                {
+                    "url": "https://dl.laravel-china.org/%package%/%reference%.%type%",
+                    "preferred": true
+                }
+            ]
+        },
+        "require": {
+            "blobfolio/blob-common": "*",
+            "ext-bcmath": "*",
+            "ext-dom": "*",
+            "ext-filter": "*",
+            "ext-hash": "*",
+            "ext-json": "*",
+            "ext-mbstring": "*",
+            "php": ">= 7.0"
+        },
+        "require-dev": {
+            "phpunit/phpunit": "5.7.*"
+        },
+        "time": "2019-06-01T17:46:46+00:00",
+        "type": "library",
+        "installation-source": "source",
+        "autoload": {
+            "psr-4": {
+                "blobfolio\\mimes\\": "lib/blobfolio/mimes"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "WTFPL"
+        ],
+        "authors": [
+            {
+                "name": "Josh Stoik",
+                "email": "josh@blobfolio.com",
+                "homepage": "https://blobfolio.com"
+            }
+        ],
+        "description": "A comprehensive MIME and file extension tool for PHP.",
+        "homepage": "https://github.com/Blobfolio/blob-mimes",
+        "keywords": [
+            "extensions",
+            "files",
+            "mimes",
+            "suffix"
+        ]
+    }
+]
