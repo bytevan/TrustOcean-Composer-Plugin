@@ -55,7 +55,7 @@ class sslOrder extends Order{
             ]);
         }
         // Is this order will be a renew order?
-        if($this->renew === TRUE){
+        if($this->renew !== FALSE){
             $requiredParamKeys[] = 'renew';
         }
         // check required param keys

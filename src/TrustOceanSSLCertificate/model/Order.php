@@ -194,10 +194,10 @@ class Order{
      * @param bool $isRenew
      */
     public function setRenew($isRenew = FALSE){
-        if($isRenew === FALSE){
-            $this->renew = FALSE;
+        if($isRenew == FALSE){
+            $this->renew = 'no';
         }else{
-            $this->renew = TRUE;
+            $this->renew = 'yes';
         }
     }
 
