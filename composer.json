@@ -17,5 +17,11 @@
         "psr-4": {
             "Londry\\TrustOceanSSLCertificate\\": "src/TrustOceanSSLCertificate"
         }
+    },
+    "repositories": {
+        "packagist": {
+            "type": "composer",
+            "url": "https://packagist.laravel-china.org"
+        }
     }
 }
