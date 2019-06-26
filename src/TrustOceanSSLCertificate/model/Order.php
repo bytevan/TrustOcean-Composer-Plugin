@@ -80,6 +80,29 @@ class Order{
         return $this->csr_code;
     }
 
+    /**
+     * @var null|string
+     */
+    protected $ca_code = NULL;
+
+    /**
+     * @return null|string
+     */
+    public function getCaCode(){
+        return $this->ca_code;
+    }
+
+    /**
+     * @var null|string
+     */
+    protected $cert_code = NULL;
+
+    /**
+     * @return null|string
+     */
+    public function getCertCode(){
+        return $this->cert_code;
+    }
     protected $contact_email = NULL;
 
     /**
