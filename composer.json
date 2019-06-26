@@ -1,7 +1,7 @@
 {
     "name": "londr/trustocean_ssl_certificate",
     "description": "php composer plugin for TrustOcean SSL API",
-    "type": "composer-plugin",
+    "type": "library",
     "license": "MIT",
     "authors": [
         {
