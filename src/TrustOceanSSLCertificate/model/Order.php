@@ -460,5 +460,17 @@ class Order{
     public function getOrderId(){
         return $this->order_id;
     }
+
+    /**
+     * @var null|string
+     */
+    protected $refund_status = NULL;
+
+    /**
+     * @return null|string
+     */
+    public function getRefundStatus(){
+        return $this->refund_status;
+    }
 }
 
